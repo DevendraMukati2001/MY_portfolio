@@ -201,8 +201,6 @@ else
 		renderer.setSize( width, height );
 	}
 }
-    }
-}
 
 
 $('document').ready(function(){
