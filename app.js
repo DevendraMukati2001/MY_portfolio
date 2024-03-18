@@ -200,7 +200,7 @@ else
 		camera.updateProjectionMatrix();
 		renderer.setSize( width, height );
 	}
-}
+};
 
 
 $('document').ready(function(){
