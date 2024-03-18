@@ -1,5 +1,9 @@
-$('dy'){
+$('dynamic-logo').ready(function(){
+    $(".logo").click(function() {
     {
+	     $('html,body').animate({
+            scrollTop: $(".dynamic-logo").offset().top+(-70)},
+            'slow');
         import WindowManager from './WindowManager.js'
 
 
